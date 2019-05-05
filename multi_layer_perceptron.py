@@ -34,7 +34,7 @@ class MultiLayerPerceptron():
 
     def train_model(self) -> None:
         # build the model
-        model = self._baseline_model()
+        self._baseline_model()
 
         # Fit the model
         self.model.fit(self.X_train, self.y_train, validation_data=(
