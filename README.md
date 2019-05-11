@@ -14,4 +14,5 @@ This repo follows the guide on [multi class classifier for Digit Recognition](ht
 - softmax activation function on output layer to turn outputs into probability-like values
 - logarithmic loss function (Keras categorical_crossentrpoy)
 - ADAM gradient descent algorithm for learning weights
-- model fitting epochs
+- model fitting epochs- [False 100% accuracy using Kaggle](https://www.kaggle.com/cdeotte/mnist-perfect-100-using-knn)
+- [Stats on the best performing model on MNIST](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#4d4e495354)
