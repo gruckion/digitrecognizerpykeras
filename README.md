@@ -2,6 +2,11 @@
 
 This repo follows the guide on [multi class classifier for Digit Recognition](https://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/) using a multi layer perceptron in Python. This is on the MNist dataset loaded through Keras.
 
+# Result
+
+ - 13s - loss: 0.0082 - acc: 0.9984 - val_loss: 0.0594 - val_acc: 0.9816
+Baseline Error: 1.84%
+
 # Keywords and linked articles for learning
 - Perceptron model
 
@@ -29,7 +34,7 @@ This repo follows the guide on [multi class classifier for Digit Recognition](ht
 - Limitations of one hot encodidng
 
 `The main limiation is that the representation size will grow with the corpus. With digits the corpus contains 10 classes, but with natura language this this could easily become 50 million. In this case we would then want to use distributed encoding.
-- Rectifier activation function for neurons in hidden layer
+- Rectifier activation function for neurons in hidden layer (Rectified linear unit - relu for short)
 Each layer in a neural network will have an activation function, this is a treshhold that must be achieved for the ouput to be classified in the range of [0,1]. For the rectifier activation function (c) below, this is the  se ction where the value is non zero. (a) is the sigmoid and (b) is the tanh.`
 
 <img src="https://www.researchgate.net/profile/Wing_Ng8/publication/260525214/figure/fig1/AS:614085599182885@1523420824926/a-The-sigmoid-b-the-tanh-c-the-rectifier-activation-functions.png" height="150" />
