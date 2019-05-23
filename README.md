@@ -39,7 +39,7 @@ Each layer in a neural network will have an activation function, this is a tresh
 
 <img src="https://www.researchgate.net/profile/Wing_Ng8/publication/260525214/figure/fig1/AS:614085599182885@1523420824926/a-The-sigmoid-b-the-tanh-c-the-rectifier-activation-functions.png" height="150" />
 
-- Softmax (softplus) activation function 
+- Softmax (softplus) activation function
 `Used on the output layer to turn outputs into probability-like values for more complex networks.`
 
 <img src="https://cdn-images-1.medium.com/max/1600/1*Xu7B5y9gp0iL5ooBj7LtWw.png" height="200" />
@@ -69,3 +69,5 @@ Each layer in a neural network will have an activation function, this is a tresh
 - [Stats on the best performing model on MNIST]
 
 (http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#4d4e495354)
+
+testing mergify
